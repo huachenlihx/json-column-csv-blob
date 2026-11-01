@@ -1,0 +1,57 @@
+{
+  "name": "json-column-csv-blob",
+  "version": "1.0.0",
+  "description": "Generate CSV Blob objects from JavaScript objects with Papa Parse",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "check": "npm run typecheck && npm test && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huachenlihx/json-column-csv-blob.git"
+  },
+  "keywords": [
+    "json",
+    "csv",
+    "blob",
+    "export",
+    "typescript",
+    "papaparse"
+  ],
+  "author": "Hua Chen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/huachenlihx/json-column-csv-blob/issues"
+  },
+  "homepage": "https://github.com/huachenlihx/json-column-csv-blob#readme",
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/papaparse": "^5.5.2",
+    "@vitest/coverage-v8": "^3.2.0",
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.0",
+    "vitest": "^3.2.0"
+  },
+  "dependencies": {
+    "papaparse": "^5.7.0"
+  }
+}
