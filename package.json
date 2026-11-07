@@ -35,7 +35,8 @@
     "blob",
     "export",
     "typescript",
-    "papaparse"
+    "papaparse",
+    "huachenlihx"
   ],
   "author": "Hua Chen",
   "license": "MIT",
