@@ -1,6 +1,6 @@
 {
   "name": "json-column-csv-blob",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generate CSV Blob objects from JavaScript objects with Papa Parse",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
